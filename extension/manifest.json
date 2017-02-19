@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Image ad swap",
+  "version": "1.0",
+  "description": "This extensions alters the look and feel of a FB page.",
+  "browser_action": {
+  "default_icon": "128.png"
+  },
+  "icons": { "16": "16.png",
+     "48": "48.png",
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*.png"
+  ]
+}
