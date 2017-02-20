@@ -32,7 +32,7 @@ def get_image():
     time.sleep(1)
 
 # Create an array from the .txt file
-with open("ads6.txt") as f:
+with open("ads.txt") as f:
     for line in f:
         query = line.rstrip('\n') + " logo"
         print query
