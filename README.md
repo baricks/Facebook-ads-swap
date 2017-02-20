@@ -1,10 +1,13 @@
 # Facebook-ads-swap
 
-**A chrome extension that plasters your Facebook account with ads.** The chrome extension swaps all the pictures in your Facebook feed with the logos of the advertisers that currently have your contact information.
+**A chrome extension that plasters your Facebook account with ads.**
+
+The chrome extension swaps all the pictures in your Facebook feed with the logos of the advertisers that currently have your contact information.
 
 ##Instructions
 
 **How to set it up (quick)**
+
 If you'd like to try out this extension without scraping your own Facebook advertisements, do the following:
 * After cloning this repo, open the folder "extension". This is the actual chrome extension.
 * Create a folder "images" in that folder. Add however many images you'd like, naming them "1.png", "2.png", etc.
@@ -14,6 +17,7 @@ var random = Math.floor(Math.random() * X) + 1
 * Browse Facebook and watch as your images get swapped.
 
 **How to set it up (long)**
+
 If you'd like to try out this extension by scraping your own Facebook advertisements, do the following:
 * First, you need to download your entire Facebook archive. Follow the steps here:
 * Go to the file "Ads.htm" and copy the list of advertisers and save it as "ads.txt"
