@@ -19,7 +19,7 @@ var random = Math.floor(Math.random() * X) + 1
 **How to set it up (long)**
 
 If you'd like to try out this extension by scraping your own Facebook advertisements, do the following:
-* First, you need to download your entire Facebook archive. Follow the steps here:
+* First, you need to download your entire Facebook archive. Follow the steps here: https://www.facebook.com/help/302796099745838
 * Go to the file "Ads.htm" and copy the list of advertisers and save it as "ads.txt"
 * After installing pip dependencies and activating the virtualenv, run the python script scrape.py to scrape images from Google Images.
 * Save all the images into a folder "images" and place into the folder "extension". This is the actual chrome extension.
